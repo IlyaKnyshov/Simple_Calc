@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Simple CALC</string>
+    <string name="tv_button_one">1</string>
+    <string name="tv_button_expression">Expression</string>
+    <string name="tv_button_open">(</string>
+    <string name="tv_button_ac">AC</string>
+    <string name="tv_button_result">Result</string>
+    <string name="tv_button_close">)</string>
+    <string name="tv_button_plus">+</string>
+    <string name="tv_button_seven">7</string>
+    <string name="tv_button_eight">8</string>
+    <string name="tv_button_nine">9</string>
+    <string name="tv_button_minus">-</string>
+    <string name="tv_button_four">4</string>
+    <string name="tv_button_five">5</string>
+    <string name="tv_button_six">6</string>
+    <string name="tv_button_divine">:</string>
+    <string name="tv_button_two">2</string>
+    <string name="tv_button_three">3</string>
+    <string name="tv_button_multiply">x</string>
+    <string name="tv_button_dot">.</string>
+    <string name="tv_button_zero">0</string>
+    <string name="tv_button_backspace">back</string>
+    <string name="tv_button_equals">=</string>
+</resources>

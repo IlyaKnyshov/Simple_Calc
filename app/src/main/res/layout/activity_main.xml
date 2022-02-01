@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_expression"
+                style="@style/Buttons_Calculator_Expression"
+                android:text="@string/tv_button_expression" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_result"
+                style="@style/Buttons_Calculator_Result"
+                android:text="@string/tv_button_result" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_action_clear"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_ac" />
+
+            <TextView
+                android:id="@+id/tv_action_open"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_open" />
+
+            <TextView
+                android:id="@+id/tv_action_close"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_close" />
+
+            <TextView
+                android:id="@+id/tv_action_plus"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_number_seven"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_seven" />
+
+            <TextView
+                android:id="@+id/tv_number_eight"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_eight" />
+
+            <TextView
+                android:id="@+id/tv_number_nine"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_nine" />
+
+            <TextView
+                android:id="@+id/tv_action_minus"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_minus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_number_four"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_four" />
+
+            <TextView
+                android:id="@+id/tv_number_five"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_five" />
+
+            <TextView
+                android:id="@+id/tv_number_six"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_six" />
+
+            <TextView
+                android:id="@+id/tv_action_divide"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_divine" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_number_one"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_one" />
+
+            <TextView
+                android:id="@+id/tv_number_two"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_two" />
+
+            <TextView
+                android:id="@+id/tv_number_three"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_three" />
+
+            <TextView
+                android:id="@+id/tv_action_multiply"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_multiply" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_action_dot"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_dot" />
+
+            <TextView
+                android:id="@+id/tv_number_zero"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_zero" />
+
+            <TextView
+                android:id="@+id/tv_action_back"
+                style="@style/Buttons_Calculator"
+                android:text="@string/tv_button_backspace" />
+
+            <TextView
+                android:id="@+id/tv_action_equals"
+                style="@style/Buttons_Calculator_Actions"
+                android:text="@string/tv_button_equals" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
